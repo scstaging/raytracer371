@@ -354,8 +354,18 @@ CMakeFiles/raytracer.dir/main.cpp.o: \
  /encs/pkg/eigen-3.3.7/root/Eigen/src/Eigenvalues/./RealQZ.h \
  /encs/pkg/eigen-3.3.7/root/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
  /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/external/json.hpp \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/SceneInfo.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Geometry.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Light.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Output.h \
  /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/external/simpleppm.h \
  /usr/include/c++/4.8.2/fstream \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/basic_file.h \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/4.8.2/bits/fstream.tcc
+ /usr/include/c++/4.8.2/bits/fstream.tcc \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Rectangle.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Ray.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Camera.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Plane.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/external/json.hpp \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/external/simpleppm.h

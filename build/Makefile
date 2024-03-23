@@ -249,6 +249,150 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Camera.o: src/Camera.cpp.o
+.PHONY : src/Camera.o
+
+# target to build an object file
+src/Camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Camera.cpp.o
+.PHONY : src/Camera.cpp.o
+
+src/Camera.i: src/Camera.cpp.i
+.PHONY : src/Camera.i
+
+# target to preprocess a source file
+src/Camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Camera.cpp.i
+.PHONY : src/Camera.cpp.i
+
+src/Camera.s: src/Camera.cpp.s
+.PHONY : src/Camera.s
+
+# target to generate assembly for a file
+src/Camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Camera.cpp.s
+.PHONY : src/Camera.cpp.s
+
+src/Geometry.o: src/Geometry.cpp.o
+.PHONY : src/Geometry.o
+
+# target to build an object file
+src/Geometry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Geometry.cpp.o
+.PHONY : src/Geometry.cpp.o
+
+src/Geometry.i: src/Geometry.cpp.i
+.PHONY : src/Geometry.i
+
+# target to preprocess a source file
+src/Geometry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Geometry.cpp.i
+.PHONY : src/Geometry.cpp.i
+
+src/Geometry.s: src/Geometry.cpp.s
+.PHONY : src/Geometry.s
+
+# target to generate assembly for a file
+src/Geometry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Geometry.cpp.s
+.PHONY : src/Geometry.cpp.s
+
+src/Light.o: src/Light.cpp.o
+.PHONY : src/Light.o
+
+# target to build an object file
+src/Light.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.o
+.PHONY : src/Light.cpp.o
+
+src/Light.i: src/Light.cpp.i
+.PHONY : src/Light.i
+
+# target to preprocess a source file
+src/Light.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.i
+.PHONY : src/Light.cpp.i
+
+src/Light.s: src/Light.cpp.s
+.PHONY : src/Light.s
+
+# target to generate assembly for a file
+src/Light.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.s
+.PHONY : src/Light.cpp.s
+
+src/Output.o: src/Output.cpp.o
+.PHONY : src/Output.o
+
+# target to build an object file
+src/Output.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Output.cpp.o
+.PHONY : src/Output.cpp.o
+
+src/Output.i: src/Output.cpp.i
+.PHONY : src/Output.i
+
+# target to preprocess a source file
+src/Output.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Output.cpp.i
+.PHONY : src/Output.cpp.i
+
+src/Output.s: src/Output.cpp.s
+.PHONY : src/Output.s
+
+# target to generate assembly for a file
+src/Output.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Output.cpp.s
+.PHONY : src/Output.cpp.s
+
+src/Plane.o: src/Plane.cpp.o
+.PHONY : src/Plane.o
+
+# target to build an object file
+src/Plane.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Plane.cpp.o
+.PHONY : src/Plane.cpp.o
+
+src/Plane.i: src/Plane.cpp.i
+.PHONY : src/Plane.i
+
+# target to preprocess a source file
+src/Plane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Plane.cpp.i
+.PHONY : src/Plane.cpp.i
+
+src/Plane.s: src/Plane.cpp.s
+.PHONY : src/Plane.s
+
+# target to generate assembly for a file
+src/Plane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Plane.cpp.s
+.PHONY : src/Plane.cpp.s
+
+src/Ray.o: src/Ray.cpp.o
+.PHONY : src/Ray.o
+
+# target to build an object file
+src/Ray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Ray.cpp.o
+.PHONY : src/Ray.cpp.o
+
+src/Ray.i: src/Ray.cpp.i
+.PHONY : src/Ray.i
+
+# target to preprocess a source file
+src/Ray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Ray.cpp.i
+.PHONY : src/Ray.cpp.i
+
+src/Ray.s: src/Ray.cpp.s
+.PHONY : src/Ray.s
+
+# target to generate assembly for a file
+src/Ray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Ray.cpp.s
+.PHONY : src/Ray.cpp.s
+
 src/RayTracer.o: src/RayTracer.cpp.o
 .PHONY : src/RayTracer.o
 
@@ -272,6 +416,54 @@ src/RayTracer.s: src/RayTracer.cpp.s
 src/RayTracer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/RayTracer.cpp.s
 .PHONY : src/RayTracer.cpp.s
+
+src/Rectangle.o: src/Rectangle.cpp.o
+.PHONY : src/Rectangle.o
+
+# target to build an object file
+src/Rectangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Rectangle.cpp.o
+.PHONY : src/Rectangle.cpp.o
+
+src/Rectangle.i: src/Rectangle.cpp.i
+.PHONY : src/Rectangle.i
+
+# target to preprocess a source file
+src/Rectangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Rectangle.cpp.i
+.PHONY : src/Rectangle.cpp.i
+
+src/Rectangle.s: src/Rectangle.cpp.s
+.PHONY : src/Rectangle.s
+
+# target to generate assembly for a file
+src/Rectangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Rectangle.cpp.s
+.PHONY : src/Rectangle.cpp.s
+
+src/SceneInfo.o: src/SceneInfo.cpp.o
+.PHONY : src/SceneInfo.o
+
+# target to build an object file
+src/SceneInfo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/SceneInfo.cpp.o
+.PHONY : src/SceneInfo.cpp.o
+
+src/SceneInfo.i: src/SceneInfo.cpp.i
+.PHONY : src/SceneInfo.i
+
+# target to preprocess a source file
+src/SceneInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/SceneInfo.cpp.i
+.PHONY : src/SceneInfo.cpp.i
+
+src/SceneInfo.s: src/SceneInfo.cpp.s
+.PHONY : src/SceneInfo.s
+
+# target to generate assembly for a file
+src/SceneInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/SceneInfo.cpp.s
+.PHONY : src/SceneInfo.cpp.s
 
 # Help Target
 help:
@@ -297,9 +489,33 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Camera.o"
+	@echo "... src/Camera.i"
+	@echo "... src/Camera.s"
+	@echo "... src/Geometry.o"
+	@echo "... src/Geometry.i"
+	@echo "... src/Geometry.s"
+	@echo "... src/Light.o"
+	@echo "... src/Light.i"
+	@echo "... src/Light.s"
+	@echo "... src/Output.o"
+	@echo "... src/Output.i"
+	@echo "... src/Output.s"
+	@echo "... src/Plane.o"
+	@echo "... src/Plane.i"
+	@echo "... src/Plane.s"
+	@echo "... src/Ray.o"
+	@echo "... src/Ray.i"
+	@echo "... src/Ray.s"
 	@echo "... src/RayTracer.o"
 	@echo "... src/RayTracer.i"
 	@echo "... src/RayTracer.s"
+	@echo "... src/Rectangle.o"
+	@echo "... src/Rectangle.i"
+	@echo "... src/Rectangle.s"
+	@echo "... src/SceneInfo.o"
+	@echo "... src/SceneInfo.i"
+	@echo "... src/SceneInfo.s"
 .PHONY : help
 
 
