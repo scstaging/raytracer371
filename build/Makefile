@@ -249,6 +249,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/AreaLight.o: src/AreaLight.cpp.o
+.PHONY : src/AreaLight.o
+
+# target to build an object file
+src/AreaLight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/AreaLight.cpp.o
+.PHONY : src/AreaLight.cpp.o
+
+src/AreaLight.i: src/AreaLight.cpp.i
+.PHONY : src/AreaLight.i
+
+# target to preprocess a source file
+src/AreaLight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/AreaLight.cpp.i
+.PHONY : src/AreaLight.cpp.i
+
+src/AreaLight.s: src/AreaLight.cpp.s
+.PHONY : src/AreaLight.s
+
+# target to generate assembly for a file
+src/AreaLight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/AreaLight.cpp.s
+.PHONY : src/AreaLight.cpp.s
+
 src/Camera.o: src/Camera.cpp.o
 .PHONY : src/Camera.o
 
@@ -320,6 +344,30 @@ src/Light.s: src/Light.cpp.s
 src/Light.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Light.cpp.s
 .PHONY : src/Light.cpp.s
+
+src/Object.o: src/Object.cpp.o
+.PHONY : src/Object.o
+
+# target to build an object file
+src/Object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Object.cpp.o
+.PHONY : src/Object.cpp.o
+
+src/Object.i: src/Object.cpp.i
+.PHONY : src/Object.i
+
+# target to preprocess a source file
+src/Object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Object.cpp.i
+.PHONY : src/Object.cpp.i
+
+src/Object.s: src/Object.cpp.s
+.PHONY : src/Object.s
+
+# target to generate assembly for a file
+src/Object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Object.cpp.s
+.PHONY : src/Object.cpp.s
 
 src/Output.o: src/Output.cpp.o
 .PHONY : src/Output.o
@@ -465,6 +513,30 @@ src/SceneInfo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/SceneInfo.cpp.s
 .PHONY : src/SceneInfo.cpp.s
 
+src/Sphere.o: src/Sphere.cpp.o
+.PHONY : src/Sphere.o
+
+# target to build an object file
+src/Sphere.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Sphere.cpp.o
+.PHONY : src/Sphere.cpp.o
+
+src/Sphere.i: src/Sphere.cpp.i
+.PHONY : src/Sphere.i
+
+# target to preprocess a source file
+src/Sphere.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Sphere.cpp.i
+.PHONY : src/Sphere.cpp.i
+
+src/Sphere.s: src/Sphere.cpp.s
+.PHONY : src/Sphere.s
+
+# target to generate assembly for a file
+src/Sphere.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/Sphere.cpp.s
+.PHONY : src/Sphere.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -489,6 +561,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/AreaLight.o"
+	@echo "... src/AreaLight.i"
+	@echo "... src/AreaLight.s"
 	@echo "... src/Camera.o"
 	@echo "... src/Camera.i"
 	@echo "... src/Camera.s"
@@ -498,6 +573,9 @@ help:
 	@echo "... src/Light.o"
 	@echo "... src/Light.i"
 	@echo "... src/Light.s"
+	@echo "... src/Object.o"
+	@echo "... src/Object.i"
+	@echo "... src/Object.s"
 	@echo "... src/Output.o"
 	@echo "... src/Output.i"
 	@echo "... src/Output.s"
@@ -516,6 +594,9 @@ help:
 	@echo "... src/SceneInfo.o"
 	@echo "... src/SceneInfo.i"
 	@echo "... src/SceneInfo.s"
+	@echo "... src/Sphere.o"
+	@echo "... src/Sphere.i"
+	@echo "... src/Sphere.s"
 .PHONY : help
 
 

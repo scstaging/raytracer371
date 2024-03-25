@@ -361,4 +361,8 @@ CMakeFiles/raytracer.dir/src/SceneInfo.cpp.o: \
  /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/4.8.2/bits/fstream.tcc \
  /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Rectangle.h \
- /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Ray.h
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Object.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Plane.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Ray.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/Sphere.h \
+ /home/s/s_cetini/COMP_371/COMP371_all/COMP371_RaytracerBase/code/src/AreaLight.h
